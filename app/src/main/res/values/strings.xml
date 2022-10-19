@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="no_data">Empty data</string>
+    <string name="something_wrong">Oops.. something went wrong</string>
+
+    <string name="text_pokemon">Pokemon</string>
+    <string name="text_base_experience">Base Experience : </string>
+    <string name="text_order">Order : </string>
+    <string name="text_height">Height : </string>
+    <string name="text_weight">Weight : </string>
+</resources>
