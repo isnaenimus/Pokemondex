@@ -48,7 +48,7 @@ class PokemonAdapter : RecyclerView.Adapter<PokemonAdapter.ListViewHolder>() {
                 Glide
                     .with(itemView.context)
                     .load(data.imageFrontDefault)
-                    .into(binding.ivPokemon)
+                    .into(ivPokemon)
             }
         }
 

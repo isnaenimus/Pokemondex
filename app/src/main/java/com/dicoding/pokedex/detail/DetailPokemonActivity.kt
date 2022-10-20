@@ -70,22 +70,23 @@ class DetailPokemonActivity : AppCompatActivity() {
                 tvHeight.text = it.height.toString()
                 tvWeight.text = it.weight.toString()
                 tvOrder.text = it.order.toString()
+
+                Glide.with(this@DetailPokemonActivity)
+                    .load(it.imageFrontDefault)
+                    .into(ivFrontDefault)
+
+                Glide.with(this@DetailPokemonActivity)
+                    .load(it.imageFrontShiny)
+                    .into(ivFrontShiny)
+
+                Glide.with(this@DetailPokemonActivity)
+                    .load(it.imageBackDefault)
+                    .into(ivBackDefault)
+
+                Glide.with(this@DetailPokemonActivity)
+                    .load(it.imageBackShiny)
+                    .into(ivBackShiny)
             }
-            Glide.with(this@DetailPokemonActivity)
-                .load(it.imageFrontDefault)
-                .into(binding.ivFrontDefault)
-
-            Glide.with(this@DetailPokemonActivity)
-                .load(it.imageFrontShiny)
-                .into(binding.ivFrontShiny)
-
-            Glide.with(this@DetailPokemonActivity)
-                .load(it.imageBackDefault)
-                .into(binding.ivBackDefault)
-
-            Glide.with(this@DetailPokemonActivity)
-                .load(it.imageBackShiny)
-                .into(binding.ivBackShiny)
         }
     }
 
