@@ -12,4 +12,6 @@ dependencies {
     implementation "io.insert-koin:koin-android:$koin_version"
 
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.9.1'
+    implementation "com.facebook.shimmer:shimmer:$shimmer_version"
+
 }

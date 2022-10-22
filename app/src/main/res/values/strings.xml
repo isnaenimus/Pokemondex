@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Pokedex</string>
     <string name="title_home">Home</string>
     <string name="title_favorite">Favorite</string>
@@ -12,6 +12,7 @@
     <string name="text_order">Order : </string>
     <string name="text_height">Height : </string>
     <string name="text_weight">Weight : </string>
+    <string name="text_search_pokemon" tools:ignore="ExtraTranslation">Search Pokemon...</string>
 
     <string name="image_description">Image</string>
 </resources>
