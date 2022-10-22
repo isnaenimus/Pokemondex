@@ -6,15 +6,12 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.os.Bundle
 import android.widget.Toast
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.dicoding.pokedex.databinding.ActivityMainBinding
-import com.dicoding.pokedex.home.HomeFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,10 +24,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //val navView: BottomNavigationView = binding.navView
-
-//        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment_activity_main) as NavHostFragment
-//        val navController = navHostFragment.navController//findNavController(R.id.nav_host_fragment_activity_main)
         val navController = binding.navHostFragmentActivityMain.getFragment<NavHostFragment>().navController
 
         // Passing each menu ID as a set of Ids because each
