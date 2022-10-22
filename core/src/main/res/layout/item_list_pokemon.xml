@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="#D8D9CF"
+            android:contentDescription="@string/image_description"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -28,6 +29,7 @@
             android:layout_margin="8dp"
             android:src="@drawable/ic_not_favorite"
             android:backgroundTint="@color/white"
+            android:contentDescription="@string/image_description"
             app:fabSize="mini"
             app:tint="#EF3838"
             app:layout_constraintTop_toTopOf="parent"

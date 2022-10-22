@@ -12,4 +12,6 @@
     <string name="text_order">Order : </string>
     <string name="text_height">Height : </string>
     <string name="text_weight">Weight : </string>
+
+    <string name="image_description">Image</string>
 </resources>
